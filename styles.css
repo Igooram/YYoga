@@ -1,0 +1,170 @@
+/* Estilos Globais */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Esconder elementos com a classe 'hidden' */
+.hidden {
+    display: none;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-banner {
+    position: relative;
+    z-index: 2;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 3;
+    position: relative;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+main {
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.products, .classes {
+    margin: 20px 0;
+}
+
+.product-list, .class-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grid responsivo */
+    gap: 20px; /* Espaço entre os itens */
+}
+
+.product-item, .class-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* Produtos relacionados a Yoga terão fundo verde */
+.yoga-product {
+    background-color: #e0f7e9; /* Verde claro */
+    border: 2px solid #4CAF50; /* Borda verde */
+}
+
+/* Estilo para o preço original e preço com desconto */
+.product-item p {
+    margin: 5px 0;
+}
+
+.product-item del {
+    color: #d9534f; /* Vermelho para o preço original */
+}
+
+.product-item strong {
+    color: #4CAF50; /* Verde para o preço com desconto */
+    font-size: 1.2em;
+}
+
+.product-list, .class-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grid responsivo */
+    gap: 20px; /* Espaço entre os itens */
+}
+
+.product-item, .class-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo para o produto com fundo de imagem */
+.product-item {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Contêiner da imagem de fundo */
+.product-image {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Produtos relacionados a Yoga com fundo verde */
+.yoga-product {
+    background-color: #e0f7e9;
+    border: 2px solid #4CAF50;
+}
+
+/* Estilo para o preço original e com desconto */
+.product-item del {
+    color: #d9534f; /* Vermelho para o preço original */
+}
+
+.product-item strong {
+    color: #4CAF50; /* Verde para o preço com desconto */
+    font-size: 1.2em;
+}
+
+/* Responsividade e grid */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-item, .class-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}

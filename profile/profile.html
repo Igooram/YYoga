@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YodaYoga - Perfil do Usuário</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="avatar.jpg" alt="Avatar do Usuário" class="profile-avatar">
+            <h1>Jedi do Yoga: <span id="userName">Luke Skywalker</span></h1>
+        </div>
+
+        <div class="profile-info">
+            <h2>Informações Pessoais</h2>
+            <p><strong>Nome:</strong> <input type="text" value="Luke Skywalker"></p>
+            <p><strong>E-mail:</strong> <input type="email" value="luke@jedi.com"></p>
+            <p><strong>Nível de Yoga:</strong>
+                <select>
+                    <option>Iniciante</option>
+                    <option>Intermediário</option>
+                    <option>Avançado</option>
+                </select>
+            </p>
+        </div>
+
+        <div class="profile-section">
+            <h2>Minhas Aulas</h2>
+            <ul id="myClasses">
+                <li>Domine a Força: Yoga para Iniciantes</li>
+                <li>Força Interior: Yoga Poderosa</li>
+            </ul>
+            <button class="btn">Ver mais aulas</button>
+        </div>
+
+        <div class="profile-section">
+            <h2>Minhas Criações</h2>
+            <ul id="userCreations">
+                <li>Aula de Yoga Flutuante - 300 visualizações</li>
+            </ul>
+            <button class="btn">Criar novo conteúdo</button>
+        </div>
+
+        <div class="profile-section">
+            <h2>Histórico de Compras</h2>
+            <ul id="purchaseHistory">
+                <li>Tapete de Yoga - Entregue</li>
+                <li>Roupas de Yoga Jedi - Em trânsito</li>
+            </ul>
+        </div>
+
+        <div class="profile-settings">
+            <h2>Configurações</h2>
+            <button class="btn">Alterar senha</button>
+            <button class="btn">Ativar modo escuro</button>
+            <button class="btn">Sair</button>
+        </div>
+    </div>
+</body>
+</html>
